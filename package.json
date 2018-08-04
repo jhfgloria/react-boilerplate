@@ -1,0 +1,31 @@
+{
+  "name": "react_boilerplate",
+  "version": "1.0.0",
+  "description": "React boilerplate with webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --hot --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "boilerplate"
+  ],
+  "author": "jhfgloria",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "4.16.4",
+    "webpack-cli": "3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "react": "16.4.2",
+    "react-dom": "16.4.2"
+  }
+}
