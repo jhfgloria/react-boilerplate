@@ -4,7 +4,7 @@
   "description": "React boilerplate with webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --hot --open",
+    "start": "webpack-dev-server --mode development --devtool source-map --hot --open",
     "build": "webpack --mode production"
   },
   "keywords": [
