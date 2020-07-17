@@ -16,4 +16,4 @@ I try to start new projects from scratch from this boilerplate, so I try to be c
 
 Feel free to use it! 
 
-Hope you enjoyed it ❤️
+Made with React and ❤️ by @jhfgloria
