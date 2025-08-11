@@ -1,0 +1,16 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-boilerplate
+  links:
+    - url: https://react.dev/
+      title: React docs
+      type: documentation
+  tags:
+    - react
+spec:
+  type: template
+  lifecycle: production
+  system: templates
+  owner: developers
